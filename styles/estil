@@ -1,0 +1,35 @@
+#contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contenido img {
+    max-width: 100%;
+    height: auto;
+}
+ 
+#contenido .text-container {
+    flex: 1;
+    margin-left: 20px;
+}
+
+#contenido .text-box {
+    border: 2px solid #4caf50;
+    background-color: #e8f8e8;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: justify; /* Alinea el texto justificado */
+    font-family: 'Arial', sans-serif;
+    border-radius: 20px;
+}
+
+#contenido .text-box h2, #contenido .text-box h4 {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+}
+
+#contenido .text-box p {
+    font-family: 'Times New Roman',  serif;
+}
