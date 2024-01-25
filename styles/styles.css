@@ -1,0 +1,122 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.green-bg {
+    background-color: #4CAF50; /* Verde */
+    color: #000; /* Letras negras */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000; /* Letras negras */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50; /* Verde */
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000; /* Letras negras */
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #45a049; /* Verde más oscuro */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+    text-justify: inter-word;
+}
+
+/* Ajustes de diseño para mejorar la alineación */
+
+.text-align-right img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.text-align-right p {
+    margin-bottom: 20px;
+}
+
+/* Otros estilos de diseño que puedas necesitar... */
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50; /* Verde */
+    color: #000; /* Letras negras */
+}
+
+/* Agregar estilos a la imagen de inicio de sesión */
+.login img {
+    /* Puedes ajustar el tamaño según tus necesidades */
+    width: 30px;
+    height: auto;
+}
+
+.logo img {
+	width: 90px;
+    height: auto;/* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%;
+}
